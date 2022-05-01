@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- <script src="https://use.fontawesome.com/64b8cce70b.js"></script> -->
+
+    <!-- GENERAL INFO -->
+    <title>Weather App</title>
+    <meta name="description" content="Search for cities and see the current weather conditions">
+
+    <!-- Change the mobile browser's viewport width -->
+    <meta name="viewport" content="width=320" />
+
+    <!-- Sets the viewport to the same width as the screen to obtain readable render without zooming-->
+    <meta name="viewport" content="width=device-width" />
+
+
+
+    <!-- LINKS TO CSS FILE ("STYLESHEET") AND SITE ICON -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+    <!-- FACEBOOK METADATA -->
+    <!-- <meta property="og:image" content="https://dogsdogsdogs.com/images/dog.png"> -->
+    <meta property="og:description" content="Perform simple mathematical operations">
+    <meta property="og:title" content="Calculator app">
+
+    <!-- TWITTER METADATA -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Calculator app">
+    <meta name="twitter:description" content="Perform simple mathematical operations">
+    <!-- <meta name="twitter:image" content="https://dogsdogsdogs.com/images/dog.png"> -->
+
+        <!-- Link to font awesome -->
+        <script src="https://kit.fontawesome.com/a6bfa77863.js" crossorigin="anonymous"></script>
+
+        <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+</head>
+
+<body>
+    <div id="errorMessage">Error Message</div>
+    <main id="container">
+        <form id="search-bar">
+            <input type="text" id="search-input" placeholder="Search Location...">
+            <button id="search-button">
+                <i class="fa fa-search fa-1x" aria-hidden="true"></i>
+            </button>
+        </form>
+        <div id="weather-info">
+            <div id="weather-info-main">
+                <div class="weather-info-main" id="weather-info-description">Broken Clouds</div>
+                <div class="weather-info-main" id="weather-info-location">Auckland</div>
+                <div><span id="weather-info-temp">16</span><span id="weather-info-temp-sign">°C</span></div>
+                <div id="weather-info-temp-c">Display °C</div>
+                <div id="weather-info-temp-f">Display °F</div>
+                <div class="weather-info-main" id="weather-info-icon"></div>
+            </div>
+            <div id="weather-info-auxiliary">
+                <div class="weather-info-aux" id="weather-info-feel">
+                    <div id="weather-info-feel-icon">
+                        <i class="fa fa-solid fa-temperature-high"></i>
+                    </div>
+                    <div id="weather-info-feel-info">
+                        <div id="weather-info-feel-text">Feels Like</div>
+                        <div><span id="weather-info-feel-value">16</span> <span id="weather-info-feel-sign">°C</span></div>
+                    </div>
+                </div>
+                <div class="weather-info-aux" id="weather-info-humidity">
+                    <div id="weather-info-humidity-icon">
+                        <i class="fa fa-solid fa-temperature-high"></i>
+                    </div>
+                    <div id="weather-info-humidity-info">
+                        <div id="weather-info-humidity-text">Humidity</div>
+                        <div><span id="weather-info-humidity-value">87</span> %</div>
+                    </div>
+                </div>
+                <div class="weather-info-aux" id="weather-info-wind">
+                    <div id="weather-info-wind-icon">
+                        <i class="fa fa-solid fa-wind"></i>
+                    </div>
+                    <div id="weather-info-wind-info">
+                        <div id="weather-info-wind-text">Wind Speed</div>
+                        <div><span id="weather-info-wind-value">10</span> m/s</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+#container {
+    color: white;
+    text-shadow: 0 0 3px rgb(214, 58, 58), 0 0 5px #0000FF;
+    background-image: url("sunny.jpeg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+#errorMessage{
+    display: none;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    background-color: rgb(78, 78, 78);
+}
+
+#search-bar {
+    /* background-color: blue; */
+    width: 80%;
+    max-width: 350px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#search-input {
+    font-size: 15px;
+    padding: 5px;
+    width: 90%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    /* background-color: transparent; */
+}
+
+#search-button {
+    background-color: rgb(78, 78, 78);
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+
+#weather-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#weather-info-main {
+    max-width: 50%;
+}
+
+.weather-info-main {
+    margin: 10px 0px;
+}
+
+#weather-info-description {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+#weather-info-temp {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#weather-info-temp-sign{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#weather-info-temp-f, #weather-info-temp-c {
+    font-size: 0.8rem;
+}
+
+#weather-info-temp-c {
+    display: none;
+}
+
+#weather-info-feel {
+    display: flex;
+}
+
+#weather-info-humidity {
+    display: flex;
+}
+
+#weather-info-wind {
+    display: flex;
+}
+
+.weather-info-aux {
+    margin: 25px 0;
+}
+
