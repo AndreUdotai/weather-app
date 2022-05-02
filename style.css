@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 body {
@@ -8,8 +8,8 @@ body {
 }
 
 #container {
-    color: white;
-    text-shadow: 0 0 3px rgb(214, 58, 58), 0 0 5px #0000FF;
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px rgb(31, 14, 14), 0 0 5px #0b0b16;
     background-image: url("sunny.jpeg");
     background-repeat: none;
     background-size: cover;
@@ -36,8 +36,8 @@ body {
 }
 
 #search-input {
-    font-size: 15px;
-    padding: 5px;
+    font-size: 0.8rem;
+    padding: 8px;
     width: 90%;
     border: none;
     border-top-left-radius: 5px;
@@ -109,3 +109,19 @@ body {
     margin: 25px 0;
 }
 
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    margin-right: 6px;
+}
+
+.weather-info-values {
+    font-size: 2rem;
+}
+
+.fa-search {
+    color: grey;
+}
