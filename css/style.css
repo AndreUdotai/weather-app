@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+#container {
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px rgb(31, 14, 14), 0 0 5px #0b0b16;
+    background-image: url("sunny.jpeg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+#errorMessage{
+    display: none;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    background-color: rgb(78, 78, 78);
+}
+
+#search-bar {
+    /* background-color: blue; */
+    width: 80%;
+    max-width: 350px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#search-input {
+    font-size: 0.8rem;
+    padding: 8px;
+    width: 90%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    /* background-color: transparent; */
+}
+
+#search-button {
+    background-color: rgb(78, 78, 78);
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+
+#weather-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#weather-info-main {
+    max-width: 50%;
+}
+
+.weather-info-main {
+    margin: 10px 0px;
+}
+
+#weather-info-description {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+#weather-info-temp {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#weather-info-temp-sign{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#weather-info-temp-f, #weather-info-temp-c {
+    font-size: 0.8rem;
+}
+
+#weather-info-temp-c {
+    display: none;
+}
+
+#weather-info-feel {
+    display: flex;
+}
+
+#weather-info-humidity {
+    display: flex;
+}
+
+#weather-info-wind {
+    display: flex;
+}
+
+.weather-info-aux {
+    margin: 25px 0;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    margin-right: 6px;
+}
+
+.weather-info-values {
+    font-size: 2rem;
+}
+
+.fa-search {
+    color: grey;
+}
